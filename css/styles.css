@@ -36,6 +36,10 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .container{
     width: 1200px;
     margin-left: auto;
@@ -56,13 +60,19 @@ img {
 .current{
     color: var(--accent-color);
 }
-
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+.nav-container{
+    display: block;
+    display: flex;
+    align-items: center;
+}
 .nav{
     display: block;
     display: flex;
     align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 .site-nav{
     display: flex;
@@ -120,6 +130,8 @@ img {
 .hero{
     background:var(--background-color);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 .hero-text{
     margin-top: 0px;
@@ -154,6 +166,12 @@ img {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
 }
 .partf-btn:hover,
 .partf-btn:focus{
@@ -166,11 +184,13 @@ img {
     color: var(--white-color);
     cursor: pointer;
 }
+.future{
+    padding-bottom: 0px;
+}
 .future-list{
     display: flex;
 }
 .future-item{
-    margin-top: 94px;
     text-align: left;
 }
 .future-item+.future-item{
@@ -197,21 +217,14 @@ img {
 .work-list .work-item:not(:last-child){
     margin-right: 30px;
 }
-.work-tittle{
-    margin-top: 94px;
-}
 .team-list{
     display: flex;
-}
-.team-tittle{
-    margin-top: 188px;
 }
 .team-item:not(:last-child){
     margin-right: 30px;
 }
 .team-item{
     margin-top: 50px;
-    margin-bottom: 94px;
 }
 .partf-img-text{
     font-size: 18px;
@@ -267,7 +280,6 @@ img {
  .partf-btn-ul{
     display: flex;
     justify-content: center;
-    margin-top: 94px;
     margin-bottom: 50px;
  }
  .partf-btn-list:not(:last-child){
@@ -286,15 +298,10 @@ img {
  }
  .partf-item:nth-last-child(-n+3){
     margin-top: 30px;
-    margin-bottom: 94px;
  }
  .partf-item:nth-child(-n+3){
     margin-top: 56px ;
     margin-bottom: 30px;
- }
- .div-footer{
-    padding-top: 60px;
-    padding-bottom: 60px;
  }
 .address{
     font-style: normal;
@@ -317,6 +324,8 @@ img {
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
-footer{
+.footer{
     background: var(--background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
